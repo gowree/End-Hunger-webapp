@@ -1,0 +1,11 @@
+#title-line{font-size:30px;color:white;font-family:Sitka Small;}
+#head{width:100%;padding:3%;background-color:rgb(255,240,80);display:flex;}
+#head-mid{width:100%;border:2px solid black;background-image:url("1.jpg");padding:5%;background-repeat:no-repeat;
+background-size:cover;margin-top:-20px;height:100%;}
+#title{width:100%;padding:5%;text-align:center;}
+#title-link{text-decoration:none;border:1px solid white;padding:15px 40px 15px 40px;border-radius:5%;
+color:white;font-weight:bold;font-size:16px;
+}
+.container-fluid{}
+li:hover{background-color:green;}
+#title-link:hover{background-color:lightgreen;}
