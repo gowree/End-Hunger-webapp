@@ -125,7 +125,8 @@ body{min-width 1300px;
               
  h1.cu{font-family:CiutadellaW04-Lt;
         color:#021438;
-        font-weight: bolder; }
+        font-weight: bolder;
+	opacity:95%;}
 
  div.cu01{margin-left:0px 40px ;
           width:max-content;
