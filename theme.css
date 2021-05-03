@@ -113,7 +113,7 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
  
  
  
- /* my code */
+ /*hear start with  my code */
   .heading{
 
     text-align: right;
@@ -123,14 +123,20 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
     background-image:url("hunger2.jpg");
     background-repeat: no-repeat;
     background-color:rgb(28, 121, 67);
-
     padding: 130px;
-
-
-
   }
-  .question{
-    text align:left;
+  .para1
+  {
+    font-size: 16px;
+    font-family: Arial;
+    text-align:justify;
+  }
+
+  
+  
+
+
+
 
     
   
