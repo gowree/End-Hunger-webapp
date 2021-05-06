@@ -113,7 +113,7 @@
 #donate-button:hover{color:red;}
 
 #head-mid{width:100%;border-bottom:2px solid white;background-repeat:no-repeat;
-	background-size:cover;margin-top:-20px;height:50vh;position:relative;background-image:url("1.jpg");
+	background-size:cover;margin-top:-20px;height:100vh;position:relative;background-image:url("1.jpg");
 	background-size:cover;background-position:center;border-bottom:5px solid black;
 }
  
@@ -131,13 +131,13 @@
 	 }
 u{text-decoration-color:orange;text-decoration-thickness:4px;}
 
-.big-box{width:100%;height:1000px;position:relative;background:PowderBlue;font-family:Arial Rounded MT Bold;font-size:1.1em;}
-.form-box{position:relative;top:25vh;width:1000px;height:700px;;margin:0 auto;border:2px solid red;padding:50px;}
- .form-table td{padding-right:50px;padding-top:20px;}
+.big-box{width:100%;height:180vh;position:relative;background:PowderBlue;font-family:Arial Rounded MT Bold;font-size:1em;}
+.form-box{position:relative;top:40vh;width:150vh;height:115vh;margin:0 auto;border:2px solid red;padding:10vh;}
+ .form-table td{padding-right:2vh;padding-top:20vh;}
   .form-table tr{margin:0 auto;}
- .input-box{width:220px;padding:5px;border-radius:5px;}
+ .input-box{width:38vh;padding:5px;border-radius:5px;}
 
- .form-table td{padding:20px;mar}
+ .form-table td{padding:20px;}
  .required:after {
     content:" *";
     color: red;
@@ -145,7 +145,29 @@ u{text-decoration-color:orange;text-decoration-thickness:4px;}
 .input-box:focus, input:focus{
     outline: none;
 }
- 
+.sub-button{position:relative;left:40%;top:8vh;padding:10px;border-radius:40px;background-color:teal;color:white;width:20vh;}
+
+
+
+
+
+ @media only screen and (max-width:800px) {
+
+
+}
+@media only screen and (max-width:768px) {
+
+
+
+}
+@media only screen and (max-width:600px) {
+.form-box{width:50vh;height:60vh;top:5vh;padding:1vh}
+.form-table td{padding:1.5vh;}
+ .input-box{width:11vh;padding-right:1vh;padding-top:0vh;}
+.form-table{left:-4vh;}
+  .big-box{height:70vh;}
+
+}
  
  
  
@@ -168,7 +190,7 @@ textarea:focus, input:focus{
 
 
 @media only screen and (max-width:800px) {
-.donation-box{width:30em;left:55%;top:5em}
+.donation-box{width:30em;left:55%;top:5em;}
 
 }
 @media only screen and (max-width:768px) {
@@ -177,6 +199,6 @@ textarea:focus, input:focus{
 
 }
 @media only screen and (max-width:600px) {
-.donation-box{width:100%;left:0;}
-
+.donation-box{width:50em;left:25%;top:25vh;}
+.text-1{top:37vh;}
 }
