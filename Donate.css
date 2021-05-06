@@ -131,8 +131,8 @@
 	 }
 u{text-decoration-color:orange;text-decoration-thickness:4px;}
 
-.big-box{width:100%;height:180vh;position:relative;background:PowderBlue;font-family:Arial Rounded MT Bold;font-size:1em;}
-.form-box{position:relative;top:40vh;width:150vh;height:115vh;margin:0 auto;border:10px double teal;;padding:10vh;}
+.big-box{display:block;width:100%;height:180vh;position:relative;background:PowderBlue;font-family:Arial Rounded MT Bold;font-size:1em;}
+.form-box{display:block;position:relative;top:40vh;width:150vh;height:115vh;margin:0 auto;border:10px double teal;;padding:10vh;}
  .form-table td{padding-right:2vh;padding-top:20vh;}
   .form-table tr{margin:0 auto;}
  .input-box{width:38vh;padding:5px;border-radius:5px;}
@@ -145,28 +145,39 @@ u{text-decoration-color:orange;text-decoration-thickness:4px;}
 .input-box:focus, input:focus{
     outline: none;
 }
-.reset-button{position:relative;float:left;top:8vh;padding:10px;border-radius:40px;background-color:teal;color:white;width:20vh;}
-.sub-button{position:relative;float:right;top:8vh;padding:10px;border-radius:40px;background-color:teal;color:white;width:20vh;}
+.reset-button{display:block;;position:relative;float:left;top:7vh;padding:10px;border-radius:40px;background-color:teal;color:white;width:20vh;}
+.sub-button{display:block;position:relative;float:right;top:7vh;padding:10px;border-radius:40px;background-color:teal;color:white;width:20vh;}
+
 
 
 
 
 
  @media only screen and (max-width:800px) {
+.form-box{width:50vh;height:65vh;top:5vh;padding:1vh}
+.form-table td{padding:1.5vh;}
+ .input-box{width:11vh;padding-right:1vh;padding-top:0vh;}
+.form-table{left:-4vh;}
+  .big-box{height:75vh;}
 
 
 }
 @media only screen and (max-width:768px) {
+.form-box{width:50vh;height:65vh;top:5vh;padding:1vh}
+.form-table td{padding:1.5vh;}
+ .input-box{width:11vh;padding-right:1vh;padding-top:0vh;}
+.form-table{left:-4vh;}
+  .big-box{height:75vh;}
 
 
 
 }
 @media only screen and (max-width:600px) {
-.form-box{width:50vh;height:60vh;top:5vh;padding:1vh}
+.form-box{width:50vh;height:80vh;top:5vh;padding:1vh;border:none;}
 .form-table td{padding:1.5vh;}
  .input-box{width:11vh;padding-right:1vh;padding-top:0vh;}
 .form-table{left:-4vh;}
-  .big-box{height:70vh;}
+  .big-box{height:90vh;}
 
 }
  
