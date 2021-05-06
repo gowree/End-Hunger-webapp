@@ -113,8 +113,8 @@
 #donate-button:hover{color:red;}
 
 #head-mid{width:100%;border-bottom:2px solid white;background-repeat:no-repeat;
-	background-size:cover;margin-top:-20px;height:40em;position:relative;background-image:url("1.jpg");
-	background-size:cover;background-position:center;
+	background-size:cover;margin-top:-20px;height:45em;position:relative;background-image:url("1.jpg");
+	background-size:cover;background-position:center;border-bottom:5px solid black;
 }
  
  
@@ -130,8 +130,9 @@
 	width:100%;height:150px;word-spacing:15px;
 	 }
 u{text-decoration-color:orange;text-decoration-thickness:4px;}
- 
- 
+
+.big-box{width:100%;height:600px;padding-top:20px;background:PowderBlue;}
+.form-box{width:500px;height:500px;;margin:0 auto;border:2px solid red;padding:50px;}
  
  
  
