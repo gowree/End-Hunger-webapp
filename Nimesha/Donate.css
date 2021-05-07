@@ -1,0 +1,217 @@
+/* footer start here*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+/* footer end here */
+
+/*........................................................*/
+ 
+ /* Nav bar start here */
+.container-fluid{margin-top:4px;}
+.working{text-decoration:underline;text-decoration-thickness:2px;
+ background-clip:content-box;}
+#myNavbar{font-size:17px;}
+#myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
+.navli:hover{border-bottom:3px solid teal;font-weight:bold;background-clip: padding-box;}
+.footli:hover{font-weight:bold;}
+.navbar-brand{padding:2px;}
+#brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
+@keyframes brand{
+	100%{background-color:teal;}
+}
+#donate-button{background-color:yellow;padding-left:25px;padding-right:25px;color:black;border:2px solid yellow;border-radius:3px;}
+#donate-button:hover{color:red;}
+
+#head-mid{width:100%;border-bottom:2px solid white;background-repeat:no-repeat;
+	background-size:cover;margin-top:-20px;height:100vh;position:relative;background-image:url("1.jpg");
+	background-size:cover;background-position:center;border-bottom:5px solid black;
+}
+ 
+ 
+ /* Nav bar end here */
+ /*........................................................*/
+.box-1{
+	width:65%;height:20em;position:relative;top:10%;float:right;;
+	
+}
+.box-1 h1{font-size:4.8vw;text-align:right;}
+ .text-1{
+	 position:relative;font-family:Arial Rounded MT Bold;top:0;color:white;padding:5px;
+	width:100%;height:150px;word-spacing:1px;
+	 }
+u{text-decoration-color:orange;text-decoration-thickness:4px;}
+
+.big-box{display:block;width:100%;height:240vh;top:-16px;position:relative;background:PowderBlue;font-family:Arial Rounded MT Bold;font-size:1em;}
+.othermethods{
+	display:block;position:relative;width:100%;height:70vh;
+	top:20vh;text-align:center;
+	}
+.pay-link1{position:relative;top:1vh;display:flex;left:40%}
+.pay-link2{position:relative;display:flex;top:-20vh}
+
+.words-box h1{font-size:2.8em;padding:30px;}
+.words-box p{padding:5px;text-align:justify;}
+
+.form-box{display:block;position:relative;top:10vh;width:150vh;height:115vh;margin:0 auto;border:10px double teal;;padding:10vh;}
+ .form-table td{padding-right:2vh;padding-top:20vh;}
+  .form-table tr{margin:0 auto;}
+ .input-box{width:38vh;padding:5px;border-radius:5px;}
+
+ .form-table td{padding:20px;}
+ .required:after {
+    content:" *";
+    color: red;
+  }
+.input-box:focus, input:focus{
+    outline: none;
+}
+.reset-button{display:block;;position:relative;float:left;top:7vh;padding:10px;border-radius:40px;background-color:teal;color:white;width:20vh;}
+.sub-button{display:block;position:relative;float:right;top:7vh;padding:10px;border-radius:40px;background-color:teal;color:white;width:20vh;}
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ /* Your code types here */
+  /* Your code types here */
+ /*........................................................*/
+/*  donation  */
+.donation-box{position:relative;display:inline-block;top:20em;left:48em;font-size:1.4vw;width:17em;
+}
+.don-but{background:Snow;border:none;padding:10px 20px;border-radius:40px;background-color:SteelBlue;color:white;float:right;}
+.donate-box-2{border-radius:40px;background-color:white;padding:0.2em;border:1px solid blue;width:100%;}
+#text-2{border:none;margin-left:2em;width:150px;float:left;position:relative;padding:10px;position:relative;}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+@media only screen and (max-width:800px) {
+.donation-box{width:30em;left:55%;top:18em;}
+#head-mid{height:50vh;}
+.box-1 h1{font-size:3.8vh;margin-top:4em;}
+
+
+}
+@media only screen and (max-width:768px) {
+.donation-box{width:28em;left:60%;top:35em}
+.text-1{top:50vh;}
+#head-mid{height:50vh;}
+	.box-1 h1{font-size:3vh;margin-top:-11em;margin-left:-10em;}
+	.box-1{width:20%;}
+
+}
+@media only screen and (max-width:600px) {
+.donation-box{width:30em;left:12%;top:-30px;font-size:10px;}
+.text-1{top:45vh;}
+#head-mid{height:50vh;}
+	.box-1 h1{font-size:3.8vh;margin-top:-9em;margin-left:-10em;}
+	.box-1{width:20%;}
+	.words-box{padding:5px;}
+	.form-box{border:none;padding:0;}
+	.form-table{padding:0px;left:0;width:fit-content;}
+		.form-table td{padding:10px;display:flex;}
+		.input-box{width:40vh;}
+		.big-box{height:320vh;}
+		.othermethods{display:block;top:70vh;font-size:1.5em;}
+		.sub-button{display:flex;float:left;left:20px;}
+		.pay-link1{top:130px;left:0;}
+		.pay-link1,.pay-link2{float:left;}
+}
