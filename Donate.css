@@ -121,13 +121,13 @@
  /* Nav bar end here */
  /*........................................................*/
 .box-1{
-	width:65em;height:20em;position:relative;top:10%;float:right;;
+	width:65%;height:20em;position:relative;top:10%;float:right;;
 	
 }
 .box-1 h1{font-size:4.8vw;text-align:right;}
  .text-1{
-	 position:relative;font-family:Arial Rounded MT Bold;top:0;color:white;padding:20px;
-	width:100%;height:150px;word-spacing:15px;
+	 position:relative;font-family:Arial Rounded MT Bold;top:0;color:white;padding:5px;
+	width:100%;height:150px;word-spacing:1px;
 	 }
 u{text-decoration-color:orange;text-decoration-thickness:4px;}
 
@@ -163,34 +163,6 @@ u{text-decoration-color:orange;text-decoration-thickness:4px;}
 
 
 
- @media only screen and (max-width:800px) {
-.form-box{width:50vh;height:65vh;top:5vh;padding:1vh}
-.form-table td{padding:1.5vh;}
- .input-box{width:11vh;padding-right:1vh;padding-top:0vh;}
-.form-table{left:-4vh;}
-  .big-box{height:75vh;}
-
-
-}
-@media only screen and (max-width:768px) {
-.form-box{width:50vh;height:65vh;top:5vh;padding:1vh}
-.form-table td{padding:1.5vh;}
- .input-box{width:11vh;padding-right:1vh;padding-top:0vh;}
-.form-table{left:-4vh;}
-  .big-box{height:75vh;}
-
-
-
-}
-@media only screen and (max-width:600px) {
-.form-box{width:50vh;height:80vh;top:5vh;padding:1vh;border:none;}
-.form-table td{padding:1.5vh;}
- .input-box{width:11vh;padding-right:1vh;padding-top:0vh;}
-.form-table{left:-4vh;}
-  .big-box{height:90vh;}
-
-}
- 
  
  
  
@@ -212,15 +184,24 @@ textarea:focus, input:focus{
 
 
 @media only screen and (max-width:800px) {
-.donation-box{width:30em;left:55%;top:5em;}
+.donation-box{width:30em;left:55%;top:18em;}
+#head-mid{height:50vh;}
+.box-1 h1{font-size:3.8vh;margin-top:4em;}
+
 
 }
 @media only screen and (max-width:768px) {
-.donation-box{width:30em;left:55%;top:5em}
-
+.donation-box{width:28em;left:60%;top:35em}
+.text-1{top:50vh;}
+#head-mid{height:50vh;}
+	.box-1 h1{font-size:3vh;margin-top:-11em;margin-left:-10em;}
+	.box-1{width:20%;}
 
 }
 @media only screen and (max-width:600px) {
-.donation-box{width:50em;left:25%;top:25vh;}
-.text-1{top:37vh;}
+.donation-box{width:50em;left:25%;top:41vh;}
+.text-1{top:54vh;}
+#head-mid{height:50vh;}
+	.box-1 h1{font-size:3.8vh;margin-top:-9em;margin-left:-10em;}
+	.box-1{width:20%;}
 }
