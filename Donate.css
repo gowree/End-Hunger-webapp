@@ -133,7 +133,7 @@ u{text-decoration-color:orange;text-decoration-thickness:4px;}
 
 .big-box{display:block;width:100%;height:240vh;top:-16px;position:relative;background:PowderBlue;font-family:Arial Rounded MT Bold;font-size:1em;}
 .othermethods{
-	display:block;position:relative;;width:100%;height:70vh;border:1px solid red;
+	display:block;position:relative;width:100%;height:70vh;
 	top:20vh;text-align:center;
 	}
 .pay-link1{position:relative;top:1vh;display:flex;left:40%}
@@ -199,9 +199,19 @@ textarea:focus, input:focus{
 
 }
 @media only screen and (max-width:600px) {
-.donation-box{width:50em;left:25%;top:41vh;}
-.text-1{top:54vh;}
+.donation-box{width:30em;left:12%;top:1vh;font-size:10px;}
+.text-1{top:50vh;}
 #head-mid{height:50vh;}
 	.box-1 h1{font-size:3.8vh;margin-top:-9em;margin-left:-10em;}
 	.box-1{width:20%;}
+	.words-box{padding:5px;}
+	.form-box{border:none;padding:0;}
+	.form-table{padding:0px;left:0;width:fit-content;}
+		.form-table td{padding:10px;display:flex;}
+		.input-box{width:40vh;}
+		.big-box{height:280vh;}
+		.othermethods{display:block;top:50vh;font-size:1.5em;}
+		.sub-button{display:flex;float:left;left:20px;}
+		.pay-link1{top:130px;left:0;}
+		.pay-link1,.pay-link2{float:left;}
 }
