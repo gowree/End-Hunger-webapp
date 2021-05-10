@@ -97,9 +97,9 @@
 /*........................................................*/
  
  /* Nav bar start here */
-.container-fluid{margin-top:7px;}
+.container-fluid{margin-top:7px;overflow:hidden;}
 
-.working{background-image:linear-gradient(teal,teal,teal,black);
+.working{background-image:linear-gradient(DarkBlue,DarkBlue,DarkBlue,DarkBlue,black);
  background-clip:content-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
 #myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
@@ -123,17 +123,19 @@ background-size:cover;background-position:center;padding:80px;filter: grayscale(
  /*........................................................*/
  
  .act-container
-	{width:100%;height:550px;background-image:url("act.jpeg");margin:0;background-position:center;
-	background-size:cover;top:-10px
+	{width:100%;height:570px;background-image:url("act.jpeg");margin:0;background-position:center;position:relative;
+	background-size:cover;top:-20px;overflow:hidden;
 }
-.act-blue-box{width:50%;height:300px;position:relative;top:45%;font-family:Eras Bold ITC;
+.act-blue-box{width:55%;height:300px;position:relative;top:45%;font-family:Eras Bold ITC;
 background:rgba(249,91,0,0.6);color:white;font-size:22px;text-decoration:justify;
 
 
 	
 }
-.act-blue-box h3{padding:70px 40px 0 40px;}
- .act-button{padding:18px 40px 18px 40px;border:1px solid white;color:white;text-decoration:none;position:relative;left:65%;}
+.act-blue-box h3{padding:70px 50px 0 25px;font-weight:600;}
+ .act-button{padding:18px 40px 18px 40px;border:1px solid white;color:white;text-decoration:none;position:relative;left:65%;
+	border-radius:5px;
+ }
  .act-button:hover{background:white;color:teal;text-decoration:none;}
  /* Your code types here */
   /* Your code types here */
