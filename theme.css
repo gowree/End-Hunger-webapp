@@ -114,11 +114,20 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
  
  
  /*hear start with  my code */
+
+
+ /*this .topic class will  use for every topic*/
  .topic
  {
-   font-family: serif;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 7px;
+   font-size: 20px;
  }
- 
+
+ /*poem hunger is a war..etc*/
   .heading{
 
     text-align: right;
@@ -131,14 +140,16 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
     padding: 130px;
  
   }
+  /*about us para1 and our vision para*/
   .para1
   {
     font-size: 16px;
     font-family: Arial;
     text-align:justify;
+    padding: 10px;
     
   }
-
+  /*our branches para */
   .para2
   {
     font-size: 16px;
@@ -148,18 +159,33 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
     margin: left 40px;
   
   }
+  /*style for our branches*/
   .style1
   {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     color: rgb(12, 151, 82);
+    font-display: flex;
 
   }
+  /*our services*/
   .para3
   {
     font-size: 16px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
+  /*our services sub topic*/
+  .subtopic
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: dodgerblue;
+
+  }
+  /*our service-green revolution*/
+  
+ 
+  
   
 
 
