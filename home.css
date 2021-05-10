@@ -98,7 +98,7 @@
  
  /* Nav bar start here */
 .container-fluid{margin-top:7px;overflow:hidden;}
-#head-mid{display:block;height:2000px}
+#head-mid{display:block;height:2500px}
 .working{background-image:linear-gradient(DarkBlue,DarkBlue,DarkBlue,DarkBlue,black);
  background-clip:content-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
@@ -158,7 +158,7 @@ filter:grayscale(15%)
 .sub-button:hover{background-color:teal;color:white;}
 
 
-.topic-2{text-align:center;}
+.topic-2{text-align:center;text-decoration:underline;font-size:42px;}
 .our-team{position:absolute;display:flex;width:100%;height:600px;}
 .our-team img{width:70%;margin-left:100px;}
 .our-blue-box{
