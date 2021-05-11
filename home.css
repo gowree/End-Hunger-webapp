@@ -122,6 +122,8 @@ background-size:cover;background-position:center;padding:80px;filter: grayscale(
  /* Nav bar end here */
  /*........................................................*/
  
+ 
+ 
  .act-container
 	{width:100%;height:570px;background-image:url("act.jpeg");margin:0;background-position:center;position:relative;
 	background-size:cover;top:-20px;overflow:hidden;display:flex;
@@ -146,6 +148,33 @@ filter:grayscale(15%)
 	width:40%;position:absolute;height:100%;background:rgba(0,60,0,0.6);padding:10px 30px 0 60px;font-weight:bold; 
 	filter: grayscale(20%);bottom:0;left:0;
 }
+
+ @media only screen and (max-width:800px) {
+	.act-blue-box{height:350px;width:100%;}
+	.act-button{left:50%;}
+}
+
+}
+@media only screen and (max-width:768px) {
+	.act-blue-box{height:350px;width:100%;}
+	.act-button{left:50%;}
+
+}
+
+@media only screen and (max-width:600px) {
+	.act-blue-box{height:350px;width:100%}
+	.act-button{left:50%;}
+}
+
+
+
+
+
+
+
+
+
+
 .topic-1{font-size:42px;text-align:center;text-decoration:underline;}
 .do-green-box p{font-size:22px;}
 .do-container h2{
@@ -204,3 +233,19 @@ filter:grayscale(15%)
 .inputs-32{background:LightGray;padding:15px 260px 10px 60px;}
 .sub-button-2{padding:17px 150px 15px 63px;width:100px;;background:orange;color:white;font-size:20px;left:0;bottom:0;}
 .sub-button-2:hover{background-color:white;color:orange;border:1px solid orange;}
+
+
+ @media only screen and (max-width:800px) {
+	
+}
+
+}
+@media only screen and (max-width:768px) {
+	
+
+}
+
+@media only screen and (max-width:600px) {
+	
+	
+}
