@@ -126,7 +126,7 @@ background-size:cover;background-position:center;padding:80px;filter: grayscale(
 	{width:100%;height:570px;background-image:url("act.jpeg");margin:0;background-position:center;position:relative;
 	background-size:cover;top:-20px;overflow:hidden;display:flex;
 }
-.act-blue-box{width:55%;height:300px;position:absolute;bottom:0;font-family:Eras Bold ITC;
+.act-blue-box{width:55%;height:300px;position:absolute;bottom:0;left:0;font-family:Eras Bold ITC;
 background:rgba(249,91,0,0.6);color:white;font-size:22px;text-decoration:justify;
 filter:grayscale(15%)
 
@@ -144,7 +144,7 @@ filter:grayscale(15%)
 	 }
 .do-green-box{
 	width:40%;position:absolute;height:100%;background:rgba(0,60,0,0.6);padding:10px 30px 0 60px;font-weight:bold; 
-	filter: grayscale(20%);
+	filter: grayscale(20%);bottom:0;left:0;
 }
 .topic-1{font-size:42px;text-align:center;text-decoration:underline;}
 .do-green-box p{font-size:22px;}
@@ -159,11 +159,12 @@ filter:grayscale(15%)
 
 
 .topic-2{text-align:center;text-decoration:underline;font-size:42px;}
+
 .our-team{position:absolute;display:flex;width:100%;height:600px;}
 .our-team img{width:70%;margin-left:100px;}
 .our-blue-box{
 	width:30%;position:absolute;display:flex;height:80%;border:1px solid blue;right:80px;
-	background:rgba(0,40,240,0.9);filter:grayscale(45%);
+	background:rgba(0,40,240,0.9);filter:grayscale(45%);top:0;
 	}
 .our-blue-box p{
 	padding:40px 85px 40px 15px;font-size:30px;text-align:left;font-weight:1000;font-family:Sitka Small;
@@ -171,7 +172,7 @@ filter:grayscale(15%)
 }
 
 .become-container{
-	position:relative;display:block;width:100%;height:400px;top:700px;font-family:Sitka Small;
+	position:relative;display:block;width:100%;height:400px;top:700px;font-family:Sitka Small;bottom:0;left:0;
 }
 .become-box{position:absolute;display:flex;width:100%;}
 .become-box img{width:96%;}
