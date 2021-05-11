@@ -227,12 +227,22 @@ filter:grayscale(15%)
 }
 
 @media only screen and (max-width:800px) {
-	
+	.topic-2{font-size:20px;}
+	.p01{font-size:18px;}
+	.our-team{height:320px;}
+	.our-team img{margin:0;width:100%;}
+	.our-blue-box p{font-size:12px;}
+	.our-blue-box{right:0;top:0;width:40%;background:rgba(0,40,240,0.7);box-shadow:1px;}
 }
 
 }
 @media only screen and (max-width:768px) {
-	
+	.topic-2{font-size:20px;}
+	.p01{font-size:18px;}
+	.our-team{height:500px;}
+	.our-team img{margin:0;width:100%;height:100%;}
+	.our-blue-box p{font-size:12px;}
+	.our-blue-box{right:0;top:0;width:40%;background:rgba(0,40,240,0.7);box-shadow:1px;}
 
 }
 
