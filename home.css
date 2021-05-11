@@ -308,7 +308,7 @@ filter:grayscale(15%)
 	.become-button1{top:300px;font-size:28px;left:80%;padding:20px 30px 20px 30px;}
 	.become-box-2{margin-top:550px;margin-left:-700px;}
 	.become-button2{top:320px;font-size:28px;left:80%;padding:20px 30px 20px 30px;}
-	.do-inputs-2{top:3000px;left:0;}
+	.do-inputs-2{top:3300px;left:0;}
 	#head-mid{height:3580px;}
 	.do-inputs-box{display:block;}
 	.inputs-31{padding:15px 100px 10px 60px;width:100%;}
@@ -329,8 +329,8 @@ filter:grayscale(15%)
 .do-inputs-2{top:3000px;left:0;}
 	#head-mid{height:3580px;}
 	.do-inputs-box{display:block;}
-	.inputs-31{padding:15px 100px 10px 60px;}
-	.inputs-32{padding:15px 100px 10px 60px;}
+	.inputs-31{padding:15px 100px 10px 60px;font-size:20px}
+	.inputs-32{padding:15px 100px 10px 60px;font-size:20px}
 	.sub-button-2{padding:15px 100px 10px 60px;width:100%;margin-top:15px;}
 	
 }
