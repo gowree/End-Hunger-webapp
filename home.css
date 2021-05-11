@@ -98,7 +98,7 @@
  
  /* Nav bar start here */
 .container-fluid{margin-top:7px;overflow:hidden;}
-#head-mid{display:block;height:2500px}
+#head-mid{height:3300px;}
 .working{background-image:linear-gradient(DarkBlue,DarkBlue,DarkBlue,DarkBlue,black);
  background-clip:content-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
@@ -167,4 +167,39 @@ filter:grayscale(15%)
 	}
 .our-blue-box p{
 	padding:40px 85px 40px 15px;font-size:30px;text-align:left;font-weight:1000;font-family:Sitka Small;
-	color:white;box-shadow:20px 20px 10px blue;
+	color:white;box-shadow:10px 20px 10px blue;
+}
+
+.become-container{
+	position:relative;display:block;width:100%;height:400px;top:700px;font-family:Sitka Small;
+}
+.become-box{position:absolute;display:flex;width:100%;}
+.become-box img{width:96%;}
+.become-box-1{
+	padding:25px;display:absolute;
+}
+.become-box-1 h1{color:grey;font-size:45px;font-weight:bold;left:0;bottom:0;}
+.become-box-1 p{padding:5px;left:0;bottom:0;width:100%;}
+.become-box-2{
+	padding:25px;display:absolute;
+}
+.become-box-2 h1{color:grey;font-size:45px;font-weight:bold;left:0;bottom:0;}
+.become-box-2 p{padding:5px;left:0;bottom:0;width:100%;}
+.become-button{
+	position:relative;top:300px;left:80%;font-size:45px;padding:20px 30px 20px 30px;
+	text-decoration:none;background:white;border-radius:50%;
+}
+.become-button:hover{text-decoration:none;background:teal;color:white;}
+
+.do-inputs-2{
+	position:absolute;display:block;top:3100px;bottom:0;padding:10px 10px 0 40px;color:black;height:220px;left:200px;
+	width:1000px;
+}
+.do-inputs-2 h1{font-size:44px;color:grey;font-weight:bold;}
+.do-inputs-2 p{font-size:16px;font-family:Sitka Small;}
+.do-inputs-box{position:absolute;display:flex;}
+.do-inputs-2 input{border-radius:5px;left:0;bottom:0;border:none;}
+.inputs-31{background:LightGray;padding:15px 30px 10px 60px;;}
+.inputs-32{background:LightGray;padding:15px 260px 10px 60px;}
+.sub-button-2{padding:17px 150px 15px 63px;width:100px;;background:orange;color:white;font-size:20px;left:0;bottom:0;}
+.sub-button-2:hover{background-color:white;color:orange;border:1px solid orange;}
