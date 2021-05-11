@@ -99,7 +99,7 @@
  /* Nav bar start here */
 .container-fluid{margin-top:7px;overflow:hidden;}
 #head-mid{height:3300px;}
-.working{background-image:linear-gradient(DarkBlue,DarkBlue,DarkBlue,DarkBlue,black);
+.working{background-image:linear-gradient(teal,teal,teal,teal,teal,black);
  background-clip:content-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
 #myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
