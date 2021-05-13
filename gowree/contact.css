@@ -184,9 +184,13 @@ body{min-width 1300px;
 width:100%;		}
 
  div.cu01{margin-left:0px 40px ;
-          width:30em;
-		  height:6em;
-          padding: 0.5em 1em;
+            margin-right: auto;
+          width:max-content;
+	  height:max-content;
+         padding-top: 0.5%;
+         padding-bottom: 0.5%;
+         padding-right: 10%;
+         padding-left: 5%;
           background-color:rgb(223, 222, 222);
           border-radius: 10px;
           border-bottom-left-radius: 0px;
