@@ -1,0 +1,351 @@
+/* footer start here*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+/* footer end here */
+
+/*........................................................*/
+ 
+ /* Nav bar start here */
+.container-fluid{margin-top:7px;overflow:hidden;}
+#head-mid{height:3300px;}
+.working{background-image:linear-gradient(teal,teal,teal,teal,teal,black);
+ background-clip:content-box;padding-left:5px;}
+#myNavbar{font-size:17px;}
+#myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
+.navli{border-radius:2px;}
+.navli:hover{border-bottom:3px solid white;font-weight:bold;background-clip: padding-box;}
+.footli:hover{font-weight:bold;}
+.navbar-brand{padding:2px;}
+#brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
+@keyframes brand{
+	100%{background-color:teal;}
+}
+ #donate-button{background-color:yellow;padding-left:25px;padding-right:25px;color:black;border:2px solid yellow;}
+#donate-button:hover{color:red;}
+.donate{
+	position:relative;width:100%;height:28em;border:2px solid white;
+	background-image:url("https://cdn.thelifeyoucansave.org/uploads/2019/11/about_banner1-scaled.png");
+background-size:cover;background-position:center;padding:80px;filter: grayscale(45%);position:relative;}
+
+
+ /* Nav bar end here */
+ /*........................................................*/
+ 
+ 
+ 
+ .act-container
+	{width:100%;height:570px;background-image:url("act.jpeg");margin:0;background-position:center;position:relative;
+	background-size:cover;top:-20px;overflow:hidden;display:flex;
+}
+.act-blue-box{width:55%;height:300px;position:absolute;bottom:0;left:0;font-family:Eras Bold ITC;
+background:rgba(249,91,0,0.6);color:white;font-size:22px;text-decoration:justify;
+filter:grayscale(15%)
+
+	
+}
+.act-blue-box h3{padding:60px 40px 0 25px;font-weight:600;font-size:26px;}
+ .act-button{padding:18px 40px 18px 40px;border:1px solid white;color:white;text-decoration:none;position:relative;left:65%;
+	border-radius:5px;bottom:15px;
+ }
+ .act-button:hover{background:white;color:teal;text-decoration:none;}
+ 
+ @media only screen and (max-width:800px) {
+	.act-blue-box{height:350px;width:100%;}
+	.act-button{left:50%;}
+}
+
+}
+@media only screen and (max-width:768px) {
+	.act-blue-box{height:350px;width:100%;}
+	.act-button{left:50%;}
+
+}
+
+@media only screen and (max-width:600px) {
+	.act-blue-box{height:350px;width:100%}
+	.act-button{left:50%;}
+}
+ 
+ 
+ 
+ /* ---------------------------------------------*/
+ 
+ .do-container{font-family:Sitka Small;
+	 width:100%;height:600px;background-image:url("action.jpg");background-position:center;background-size:cover;
+	 color:white;position:relative;display:flex;
+	 }
+.do-green-box{
+	width:40%;position:absolute;height:100%;background:rgba(0,60,0,0.6);padding:10px 30px 0 60px;font-weight:bold; 
+	filter: grayscale(20%);bottom:0;left:0;
+}
+.topic-1{font-size:42px;text-align:center;text-decoration:underline;}
+.do-green-box p{font-size:22px;}
+.do-container h2{
+	position:absolute;width:60%;bottom:-10px;right:0;text-align:right;
+	background:rgba(0,0,255,0.5);color:white;font-size:65px;padding:30px;
+	}
+.do-inputs{width:35%;position:absolute;bottom:80px;padding:10px 10px 0 40px;color:black;height:120px;}
+ .inputs{padding:10px;width:48%;border-radius:5px;}
+.sub-button{padding:10px;width:97%;background:rgba(0,0,0,0);color:white;font-size:20px;}
+.sub-button:hover{background-color:teal;color:white;}
+
+
+ @media only screen and (max-width:800px) {
+	.do-green-box{width:40%;}
+	.do-green-box p{font-size:16px;}
+	.do-container h2{font-size:35px;width:60%;}
+	.do-inputs{width:35%;}
+	.inputs{width:100%;padding:2px;margin-top:5px;}
+	.sub-button{width:100%;}
+}
+
+}
+@media only screen and (max-width:768px) {
+	.do-green-box{width:40%;}
+	.do-green-box p{font-size:12px;}
+	.do-container h2{font-size:35px;width:60%;}
+	.do-inputs{width:50%;}
+	.inputs{width:100%;padding:2px;margin-top:5px;}
+	.sub-button{width:100%;}
+}
+
+@media only screen and (max-width:600px) {
+	.do-green-box{width:55%;}
+	.do-green-box p{font-size:12px;}
+	.do-container h2{font-size:35px;width:45%;}
+	.do-inputs{width:50%;}
+	.inputs{width:100%;padding:2px;margin-top:5px;}
+	.sub-button{width:100%;}
+}
+
+/* ----------------------------------------------------*/
+
+
+
+.topic-2{text-align:center;text-decoration:underline;font-size:42px;}
+
+.our-team{position:absolute;display:flex;width:100%;height:600px;}
+.our-team img{width:70%;margin-left:100px;}
+.our-blue-box{
+	width:30%;position:absolute;display:flex;height:80%;border:1px solid blue;right:80px;
+	background:rgba(0,40,240,0.9);filter:grayscale(45%);top:0;
+	}
+.our-blue-box p{
+	padding:40px 85px 40px 15px;font-size:30px;text-align:left;font-weight:1000;font-family:Sitka Small;
+	color:white;
+}
+
+@media only screen and (max-width:800px) {
+	.topic-2{font-size:20px;}
+	.p01{font-size:18px;}
+	.our-team{height:320px;}
+	.our-team img{margin:0;width:100%;}
+	.our-blue-box p{font-size:12px;}
+	.our-blue-box{right:0;top:0;width:40%;background:rgba(0,40,240,0.7);}
+}
+
+}
+@media only screen and (max-width:768px) {
+	.topic-2{font-size:20px;}
+	.p01{font-size:18px;}
+	.our-team{height:500px;}
+	.our-team img{margin:0;width:100%;height:100%;}
+	.our-blue-box p{font-size:12px;}
+	.our-blue-box{right:0;top:0;width:40%;background:rgba(0,40,240,0.7);}
+
+}
+
+@media only screen and (max-width:600px) {
+	.topic-2{font-size:20px;}
+	.p01{font-size:18px;}
+	.our-team{height:320px;}
+	.our-team img{margin:0;width:100%;}
+	.our-blue-box p{font-size:12px;}
+	.our-blue-box{right:0;top:0;width:40%;background:rgba(0,40,240,0.7)}
+}
+
+
+
+
+/* -------------------------------------- */
+
+
+
+
+.become-container{
+	position:relative;display:block;width:100%;height:400px;top:700px;font-family:Sitka Small;bottom:0;left:0;
+}
+.become-box{position:absolute;display:flex;width:100%;}
+.become-box img{width:96%;}
+.become-box-1{
+	padding:25px;display:absolute;
+}
+.become-box-1 h1{color:grey;font-size:45px;font-weight:bold;left:0;bottom:0;}
+.become-box-1 p{padding:5px;left:0;bottom:0;width:100%;}
+.become-box-2{
+	padding:25px;display:absolute;
+}
+.become-box-2 h1{color:grey;font-size:45px;font-weight:bold;left:0;bottom:0;}
+.become-box-2 p{padding:5px;left:0;bottom:0;width:100%;}
+.become-button1{
+	position:relative;top:300px;left:80%;font-size:45px;padding:20px 30px 20px 30px;
+	text-decoration:none;background:white;border-radius:50%;
+}
+.become-button1:hover{text-decoration:none;background:teal;color:white;}
+.become-button2{
+	position:relative;top:300px;left:80%;font-size:45px;padding:20px 30px 20px 30px;
+	text-decoration:none;background:white;border-radius:50%;
+}
+.become-button2:hover{text-decoration:none;background:teal;color:white;}
+.do-inputs-2{
+	position:absolute;display:block;top:3100px;bottom:0;padding:10px 10px 0 40px;color:black;height:220px;left:200px;
+	width:62%;
+}
+.do-inputs-2 h1{font-size:44px;color:grey;font-weight:bold;}
+.do-inputs-2 p{font-size:16px;font-family:Sitka Small;}
+.do-inputs-box{position:absolute;display:flex;}
+.do-inputs-2 input{border-radius:5px;left:0;bottom:0;border:none;}
+.inputs-31{background:LightGray;padding:15px 30px 10px 60px;}
+.inputs-32{background:LightGray;padding:15px 260px 10px 60px;}
+.sub-button-2{padding:17px 150px 15px 63px;width:100px;;background:orange;color:white;font-size:20px;left:0;bottom:0;}
+.sub-button-2:hover{background-color:white;color:orange;border:1px solid orange;}
+
+
+ @media only screen and (max-width:800px) {
+	.become-container{top:350px;}
+	.become-bo{display:block;position:relative;}
+	.become-button1{top:300px;font-size:28px;left:80%;padding:20px 30px 20px 30px;}
+	.become-box-2{margin-top:550px;margin-left:-700px;}
+	.become-button2{top:320px;font-size:28px;left:80%;padding:20px 30px 20px 30px;}
+	.do-inputs-2{top:3300px;left:0;}
+	#head-mid{height:3580px;}
+	.do-inputs-box{display:block;}
+	.inputs-31{padding:15px 100px 10px 60px;width:100%;}
+	.inputs-32{padding:15px 100px 10px 60px;width:100%;}
+	.sub-button-2{padding:15px 100px 10px 60px;width:100%;margin-top:15px;}
+	
+	
+	
+}
+
+}
+@media only screen and (max-width:768px) {
+	.become-container{top:350px;}
+	.become-bo{display:block;position:relative;}
+	.become-button1{top:120px;font-size:18px;left:70%;padding:10px 20px 10px 20px;}
+	.become-box-2{margin-top:500px;margin-left:-350px;}
+	.become-button2{top:130px;font-size:18px;left:70%;padding:10px 20px 10px 20px;}
+.do-inputs-2{top:3000px;left:0;}
+	#head-mid{height:3580px;}
+	.do-inputs-box{display:block;}
+	.inputs-31{padding:15px 100px 10px 60px;font-size:20px}
+	.inputs-32{padding:15px 100px 10px 60px;font-size:20px}
+	.sub-button-2{padding:15px 100px 10px 60px;width:100%;margin-top:15px;}
+	
+}
+
+@media only screen and (max-width:600px) {
+	.become-container{top:350px;}
+	.become-bo{display:block;position:relative;}
+	.become-button1{top:120px;font-size:18px;left:70%;padding:10px 20px 10px 20px;}
+	.become-box-2{margin-top:500px;margin-left:-350px;}
+	.become-button2{top:130px;font-size:18px;left:70%;padding:10px 20px 10px 20px;}
+	.do-inputs-2{top:3000px;left:0;}
+	#head-mid{height:3580px;}
+	.do-inputs-box{display:block;}
+	.inputs-31{padding:15px 100px 10px 60px;}
+	.inputs-32{padding:15px 100px 10px 60px;}
+	.sub-button-2{padding:15px 100px 10px 60px;width:100%;margin-top:15px;}
+}
+

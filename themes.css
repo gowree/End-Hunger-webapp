@@ -27,11 +27,12 @@ color:white;font-weight:bold;font-size:1.2vw;color:black;height:auto;background-
    ;
 }
 .container-fluid{margin-top:4px;position:relative;z-index:2;}
-.working{ border-bottom:4px inset green;
- background-clip:content-box;}
+.working{background-image:linear-gradient(teal,teal,teal,teal,teal,black);
+ background-clip:content-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
 #myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
-.navli:hover{border-bottom:3px solid teal;font-weight:bold;background-clip: padding-box;}
+.navli{border-radius:2px;}
+.navli:hover{border-bottom:3px solid white;font-weight:bold;background-clip: padding-box;}
 .footli:hover{font-weight:bold;}
 .navbar-brand{padding:2px;}
 #brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
