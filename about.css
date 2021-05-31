@@ -97,32 +97,14 @@
 /*........................................................*/
  
  /* Nav bar start here */
- .container-fluid{margin-top:4px;}
- .working{ border-bottom:4px inset green;
- background-clip:content-box;}
-#myNavbar{font-size:17px;}
-#myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
-.navli:hover{background-color:Teal;font-weight:bold;background-clip: padding-box;}
-.footli:hover{font-weight:bold;}
-.navbar-brand{padding:2px;}
-#brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
+ .navbar-brand{padding:10px;}
+ #brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
 @keyframes brand{
-	100%{background-color:teal;}
+	100%{background-color:pink;}
 }
-#donate-button{background-color:yellow;padding-left:25px;padding-right:25px;color:black;border:2px solid yellow;}
-#donate-button:hover{color:red;}
-.donate{
-	position:relative;width:100%;height:28em;border:2px solid white;
-	background-image:url("https://cdn.thelifeyoucansave.org/uploads/2019/11/about_banner1-scaled.png");
-background-size:cover;background-position:center;padding:80px; filter: grayscale(45%);position:relative;}
-
-
-.donate p{display:block;color:blue;font-size:1.6vw;margin:0 auto;font-family:Sitka Small;font-weight:1000;padding:30px;
-		  text-align:center;height:auto;width:80%;opacity:1;z-index:1;background-color:white;opacity:0.7;border-radius:10px;}
-.donate button{font-size:1.5vw;font-weight:bold;display:block;opacity:0.9;width:45%;margin:0 auto;
-background-color:yellow;color:black;padding:5px;}
-.donate button:hover{color:red;opacity:1;}
-
+#head-mid{width:100%;border-bottom:2px solid white;background-repeat:no-repeat;
+background-size:cover;margin-top:-20px;height:25%;position:relative;}
+ 
  
  /* Nav bar end here */
  /*........................................................*/
@@ -131,38 +113,86 @@ background-color:yellow;color:black;padding:5px;}
  
  
  
- /* my code */
-.box{width:100%;height:50%;border:1px solid black;display:inline-block;
-	background-image:url("hunger2.jpg");margin-top:2%;border: 2px solid rgb(27, 150, 109);
-}
-.heading{
-	display:block;
+ /*hear start with  my code */
+
+
+ /*this .topic class will  use for every topic*/
+ .topic
+ {
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 7px;
+   font-size: 20px;
+ }
+
+ /*poem hunger is a war..etc*/
+  .heading{
+
+    text-align: right;
     font-family:BellMT ;
     color: black;
-    padding:6em 1em 1em 3em;position:relative;
-	font-size:2.2vw;
+    border: 2px rgb(27, 150, 109);
+    background-image:url("hunger2.jpg");
+    background-repeat: no-repeat;
     background-color:rgb(28, 121, 67);
-	background-position:left;
-	width:30%;height:16em;
-	float:right;
-	margin:0;
-	line-height:1.3em;
-	
-	
-
-
+    padding: 130px;
+ 
+  }
+  /*about us para1 and our vision para*/
+  .para1
+  {
+    font-size: 16px;
+    font-family: Arial;
+    text-align:justify;
+    padding: 10px;
+    
+  }
+  /*our branches para */
+  .para2
+  {
+    font-size: 16px;
+    font-weight:italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: left 40px;
+  
+  }
+  /*style for our branches*/
+  .style1
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: rgb(12, 151, 82);
+    font-display: flex;
 
   }
- .question{
-    text align:left;
-	font-size:2vw;
+  /*our services*/
+  .para3
+  {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*our services sub topic*/
+  .subtopic
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: dodgerblue;
 
   }
-@media only screen and (max-width:600px) {
-	.box{background-position:right;
-	background-size:cover;}
-	.heading{width:28%;}
-}
+  /*our service-green revolution*/
+  
+ 
+  
+  
+
+
+
+
+    
+  
  
  
  
