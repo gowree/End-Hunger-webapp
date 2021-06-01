@@ -149,7 +149,7 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
   {
     font-size: 16px;
     font-family: Arial;
-    text-align:justify;
+    text-align:left;
     padding: 10px;
     
   }
@@ -187,14 +187,14 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
 
   }
   .cha{
-    background-color: green;
-    color: white;
+    background-color:#52b69a;
+    color:black;
     padding: 25px;
     text-align: center;
   }
   
   .cha:hover {
-    background-color: blue;
+    background-color:#1a759f;
   }
   /*our service-green revolution*/
   
