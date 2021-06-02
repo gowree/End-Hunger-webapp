@@ -107,9 +107,19 @@
 .navli:hover{border-bottom:2px solid white;font-weight:bold;background-clip: padding-box;}
 .footli:hover{font-weight:bold;}
 .navbar-brand{padding:2px;}
-#brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
+#brand:hover{animation-name:brand;animation-duration:4s;animation-iteration-count:infinite;}
 @keyframes brand{
-	100%{background-color:teal;}
+	0%{border-left:3px solid gold;}
+	10%{border-left:3px solid gold;}
+	20%{border-left:0px;border-bottom:3px solid gold;}
+	30%{border-bottom:0px;border-right:3px solid gold;}
+	40%{border-right:0px;border-top:3px solid gold}
+	50%{border-top:0px;border-left:3px solid gold}
+	60%{border-left:0px;border-bottom:3px solid gold;}
+	70%{border-bottom:0px;border-right:3px solid gold;}
+	80%{border-right:0px;border-top:3px solid gold}
+	90%{border-top:0px;}
+	100%{border-left:3px solid gold;}
 }
  #donate-button{background-color:yellow;padding-left:25px;padding-right:25px;color:black;border:2px solid yellow;}
 #donate-button:hover{color:red;}
