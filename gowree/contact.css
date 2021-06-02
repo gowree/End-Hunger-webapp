@@ -1,10 +1,10 @@
 .container-fluid{margin-top:5px;}
-.working{background-image:linear-gradient(teal,teal,teal,teal,teal,black);
- background-clip:content-box;padding-left:5px;}
+.working{background:SlateBlue;
+ background-clip:padding-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
 #myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
 .navli{border-radius:2px;}
-.navli:hover{border-bottom:3px solid white;font-weight:bold;background-clip: padding-box;}
+.navli:hover{border-bottom:2px solid white;font-weight:bold;background-clip: padding-box;}
 .footli:hover{font-weight:bold;}
 .navbar-brand{padding:2px;}
 #brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}

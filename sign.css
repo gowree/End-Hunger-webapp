@@ -13,11 +13,11 @@ color:black;font-family:Sitka Small;text-align:justify;background-color:Cornsilk
 .donate{
 	position:relative;width:100%;height:28em;border:2px solid white;
 	background-image:url("https://cdn.thelifeyoucansave.org/uploads/2019/11/about_banner1-scaled.png");
-background-size:cover;background-position:center;padding:80px; filter: grayscale(45%);position:relative;}
+background-size:cover;background-position:center;padding:80px; filter: grayscale(15%);position:relative;}
 
 
 .donate p{display:block;color:white;font-size:1.6vw;margin:0 auto;font-family:Sitka Small;font-weight:1000;padding:30px;
-		  text-align:center;height:auto;width:80%;opacity:1;z-index:1;background-color:black;opacity:0.7;border-radius:10px;}
+		  text-align:center;height:auto;width:80%;opacity:1;z-index:1;background-color:rgba(0,0,200,0.6);border-radius:10px;}
 .donate button{font-size:1.5vw;font-weight:bold;display:block;opacity:0.9;width:45%;margin:0 auto;
 background-color:yellow;color:black;padding:5px;}
 .donate button:hover{color:red;opacity:1;}
@@ -57,12 +57,12 @@ background-color:yellow;color:black;padding:5px;}
 
 
 .container-fluid{margin-top:4px;position:relative;z-index:2;}
-.working{background-image:linear-gradient(teal,teal,teal,teal,teal,black);
+.working{background:SlateBlue;
  background-clip:content-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
 #myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
 .navli{border-radius:2px;}
-.navli:hover{border-bottom:3px solid white;font-weight:bold;background-clip: padding-box;}
+.navli:hover{border-bottom:2px solid white;font-weight:bold;background-clip: padding-box;}
 .footli:hover{font-weight:bold;}
 .navbar-brand{padding:2px;}
 #brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
