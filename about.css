@@ -187,16 +187,22 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
 
   }
   .cha{
-    background-color:#52b69a;
+    background-color:white;
     color:black;
     padding: 25px;
     text-align: center;
   }
   
   .cha:hover {
-    background-color:#1a759f;
+    background-color:#43aa8b;
   }
-  /*our service-green revolution*/
+  p.service
+  {
+    font-size: 30;
+    text-align:left;
+    
+  }
+
   
  
   
