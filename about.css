@@ -128,7 +128,9 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
    font-size: 18px;
    font-weight: bold;
    padding: 7px;
-   font-size: 20px;
+   font-size: 58px;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
  
  /*poem hunger is a war..etc*/
@@ -182,7 +184,7 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
   p.subtopic
   {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: dodgerblue;
 
   }
@@ -196,12 +198,23 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
   .cha:hover {
     background-color:#43aa8b;
   }
-  p.service
+  p.para4
   {
-    font-size: 30;
+    font-size: 18px;
     text-align:left;
     
   }
+  .topic2
+ {
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color:black;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 7px;
+   font-size: 30px;
+   text-align: left;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
 
   
  
