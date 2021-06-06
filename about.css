@@ -149,8 +149,8 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
   /*about us para1 and our vision para*/
   p.para1
   {
-    font-size: 16px;
-    font-family: Arial;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:left;
     padding: 10px;
     
@@ -158,9 +158,9 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
   /*our branches para */
   p.para2
   {
-    font-size: 16px;
+    font-size: 18px;
     font-weight:italic;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
     margin: left 40px;
   
@@ -172,6 +172,7 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
     font-weight: normal;
     color: rgb(12, 151, 82);
     font-display: flex;
+    font-size: 18px;
 
   }
   /*our services*/
@@ -202,6 +203,8 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
   {
     font-size: 18px;
     text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     
   }
   .topic2
