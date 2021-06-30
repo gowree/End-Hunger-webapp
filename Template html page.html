@@ -58,31 +58,33 @@
       please fill this form & submit; we will contact back to you soon as much as possible.   </p>
     </div>
 
-    <div class="cu04">
-      <form>
+   <div class="cu04">
+      <script src="validate.js" type="text/javascript"></script>
+      <form name="form" onsubmit="validate()">
+        
         <table class="tb">
           <tr class="r1"><td class="c1">First Name</td>
-                         <td class="c2"> <input type="text" name="Fname" placeholder="First Name "></td>
+                         <td class="c2"> <input type="text" name="fname" placeholder="First Name "></td>
                          
         </tr>
         <tr class="r1"><td class="c1">Last Name</td>
-        <td class="c2"><input type="text" name="Fname" placeholder="Last Name "></td> 
+        <td class="c2"><input type="text" name="lname" placeholder="Last Name "></td> 
       </tr>
         <tr class="r1"><td class="c1">Phone Number</td>
-                       <td class="c2"> <input type="text" name="Fname" placeholder="Your personal contact number "></td>
+                       <td class="c2"> <input type="number" name="pn" placeholder="Your personal contact number "></td>
                       </tr>
                       <tr class="r1">              
                        <td class="c1">E-Mail</td>
-                       <td class="c2"><input type="email" name="Fname" placeholder="Kanchana@mail.com "></td>
+                       <td class="c2"><input type="email" name="email" placeholder="Kanchana@mail.com "></td>
         </tr>
 
            <tr class="r1"><td class="c1">Home Address</td>
-                          <td   class="c2"> <input class="i1"  type="text" name="Fname" placeholder=""></td>
+                          <td   class="c2"> <input class="i1"  type="text" name="hd" placeholder=""></td>
           </tr>
           <tr class="r2"><td class="c11">Message</td>
                          <td class="c2"> <textarea class="i2"></textarea></td>
            </tr>
-           <tr class="r1"><td class="c1"><button class="b1">Submit</button></td>
+           <tr class="r1"><td class="c1"><input class="b1" type="submit" name="Submit"></td>
                           <td class="c2"> </td>
                          
             </tr>
