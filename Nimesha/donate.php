@@ -44,33 +44,81 @@
 <!-- navigation bar end here  -->
 <!-- main div start -->
 <!-- ........................................................-->
- <div id="head-mid" class="container-fluid" >	
- 
- 
- 
- 
- <br>
- <div class="box-1">
-<div class="text-1">
-	<h1>Working together<br>for a world<br><u>without hunger</u> </h1>
-	
- </div>
-</div>
 
-<!--     donation form start here   --> 
-<form name="form-1" method="post" action="donate.php">                   
-<div class="donation-box">
-	<label for="donate-value" class="donate-box-2">
-	<input type="number" name="donate-value" placeholder="$" id="text-2"><input type="submit" class="don-but" value="Donate"/>
-	</label>
-</div>
-</form>
- <!--   donation form end here    -->
-<br>
-<br>
- </div>
 <div class="big-box">
-
+<div class="words-box">
+<h1>Donate Today</h1>
+<p>Supporting Against Hunger with your donation helps us strengthen food production 
+and food access in Sri Lanka. We rely on support like yours to continue to offer
+ the services and programs that we do. Thank you for supporting a strong local food system!
+Below you will find the option to donate to one of our programs or to general operating expenses.
+ Please let us know how you would like your money to be used.  </p>
+ </div>
+	<div class="form-box">
+	<form method="get" name="form1">
+	<legend>Donate</legend>
+	<table class="form-table">
+		<tr>
+			<td>
+			<label for="Fname"  class="required">First Name</label></td>
+			<td><input type="text" class="input-box" name="Fname" Required>	</td>
+		
+			<td>
+			<label for="Lname"  class="required">Last Name</label></td>
+			<td><input type="text" class="input-box" name="Lname" Required>	</td>
+		</tr>
+		<tr>
+			<td>
+			<label for="emailname"  class="required">EMail</label></td>
+			<td><input type="email" class="input-box" name="emailname" Required>	</td>
+		
+			<td>
+			<label for="tp">Phone</label></td>
+			<td><input type="telephone" class="input-box" name="tp" Required>	</td>
+		</tr>
+		<tr>
+			<td>
+			<label for="add">Address</label></td>
+			<td><input type="text" class="input-box" name="add">	</td>
+		
+			<td>
+			<label for="ct">City</label></td>
+			<td><input type="text" class="input-box" name="ct" >	</td>
+		</tr>
+		<tr>
+			<td>
+			<label for="st">State</label></td>
+			<td><input type="text" class="input-box" name="st" >	</td>
+		
+			<td>
+			<label for="zip">Zip code</label></td>
+			<td><input type="number" class="input-box" name="zip" min="10" >	</td>
+		</tr>
+		<tr>
+			<td>
+			<label for="cash"  class="required">Amount</label></td>
+			<td>
+			<input type="number" step="any" class="input-box" name="cash"  min="10" max="10000" value="<?php echo $_POST['donate-value'];?>">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<label for="com">Comment</label></td>
+			<td colspan="3"><textarea class="input-box" placeholder="Feel Free to comment"></textarea>		</td>
+		</tr>
+	</table>
+	<input type="reset" value="Clear" class="reset-button">
+	<input type="submit" value="Donate" class="sub-button">
+	</form>
+	
+	</div>
+	<div class="othermethods">
+	<h1>Other Donation Methods</h1><br><br><br>
+	<span>
+	<a class="pay-link1" href="#"><img src="paypal.png" alt="paypal"/></a><br><br>
+	<a class="pay-link2" href="#"><img src="hnb.jpg" alt="hnb"/></a>
+	</span>
+	</div>
 	
 </div>
 <!-- ........................................................-->
@@ -114,12 +162,13 @@
         </div>
       </div>
 </footer>
-
-
 <!-- ........................................................-->
 <!-- footer end here-->
+<?php
+
+	
 
 
-
+?>
 </body>
 </html>

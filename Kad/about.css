@@ -109,7 +109,7 @@
 
 }
 @keyframes brand{
-	0%{border-left:5px solid gold;}
+	0%{border-left:3px solid gold;}
 	10%{border-left:3px solid gold;}
 	20%{border-left:0px;border-bottom:3px solid gold;}
 	30%{border-bottom:0px;border-right:3px solid gold;}

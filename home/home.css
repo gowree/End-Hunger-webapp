@@ -307,8 +307,8 @@ filter:grayscale(15%)
 .do-inputs-box{position:absolute;display:flex;}
 .do-inputs-2 input{border-radius:5px;left:0;bottom:0;border:none;}
 .inputs-31{background:LightGray;padding:15px 30px 10px 60px;}
-.inputs-32{background:LightGray;padding:15px 260px 10px 60px;}
-.sub-button-2{padding:17px 150px 15px 63px;width:100px;;background:orange;color:white;font-size:20px;left:0;bottom:0;}
+.inputs-32{background:LightGray;padding:15px 250px 10px 60px;}
+.sub-button-2{position:relative;padding:17px 150px 15px 63px;width:100px;background:orange;color:white;font-size:20px;left:0;bottom:0;}
 .sub-button-2:hover{background-color:white;color:orange;border:1px solid orange;}
 
 

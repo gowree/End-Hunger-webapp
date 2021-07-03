@@ -8,7 +8,7 @@
 <meta name="format-detection" content="telephone=yes"/>
     <meta name="HandheldFriendly" content="true"/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="home.css">
+<link rel="stylesheet" type="text/css" href="news.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -44,84 +44,23 @@
 <!-- main div start -->
 <!-- ........................................................-->
  <div id="head-mid" >
- 
-	<div class="act-container">
-		<div class="act-blue-box">
-			<h3> Join our community and help us reach more children in need</h3>
-			<br><br><br><br>
-			<a href="../sign.html" class="act-button">ACT NOW</a>
-		</div>
-	</div><br>
-	<h1 class="topic-1">What We DO</h1><br>
-<div class="do-container">
-	<div class="do-green-box">
-		
-		<p><br>The Against Hunger Foundation is a global humanitarian organization
-Causes and effects of hunger.<br> <br>Our staff of nearly 8,500 has served over 10 million people in 5 countries.<br><br>
- Sign up below to learn how it can help you save lives.
-		</p>
-	</div>
-			<h2>Action.<br>Against Hunger.</h2>
-			<br><br>
-			
-	<div class="do-inputs">
-	<form name="form-1" action="news.php" method="post">
-		<input class="inputs" type="text" placeholder="First Name" name="username" REQUIRED />
-		<input class="inputs" type="email" placeholder="Email" name="useremail" size="35" REQUIRED /><br><br>
-		<input class="sub-button" type="submit" value="Subscribe"/>
-	</form>
-	</div>
+<?php
+	
+$uname = $_POST['username'];
+$uemail = $_POST['useremail'];
+  
+ $con = mysqli_connect("localhost","root","");
+ mysqli_select_db($con,"assigmentdb");
+ $sql = "INSERT INTO newsletter(UserName,UserEmail) VALUES ('$uname','$uemail')";
+ if($con){
+	 echo "<font color='green'>Subscribed to newsletter service successfully. We will send important updates quickly to your inbox..
+			<a href='home.html'>Click here</a> to go back to Home page.	</font>";
+	
+ }
+else{echo "erro..! Reconnecting";}
+mysqli_query($con,$sql);
 
-</div>
-<br><br><br><br>
-<h2 class="topic-2">Meet Our Dedicated Team</h2><br>
-<h3 class="p01">We’re on the ground in communities where help is needed most.</h3>
-<br><br>
-<div class="our-team">
-	<img src="ourwork.jpg"/>
-	<div class="our-blue-box">
-		<p>&#34;<br> We strive to make sure we reach out to communities. If we have to sleep on the side of the road, we do not mind.
-		</p>
-	</div>
-</div>
-<br><br>
-<div class="become-container">
-<div class="become-box">
-	<div class="become-box-1">
-	<h1>Become a Fundraiser</h1>
-	<p>Donate your birthday, host a party or do something crazy!
-	Your friends and family will come together to save young lives.</p>
-	<a href="#" class="become-button1">&#8883;</a>
-	<img src="save-1.jpg"/>
-	</div>
-	<div class="become-box-2">
-	<h1>Give Monthly</h1>
-	<p>Every month, help us save lives, respond to emergencies,
-	and create healthier communities. Join us today and make a difference!</p>
-	<a href="#" class="become-button2">&#8883;</a>
-	<img src="save-2.jpg"/>
-	</div>
-</div>
-</div>
-<br><br>
-
-<div class="do-inputs-2">
-	<h1>Join Our Community</h1>
-	<p>Want to join the fight against hunger? Join our mailing list to stay up to date on all the latest news and events from Action Against Hunger.
-	We won’t spam your inbox, we promise.</p>
-	<div class="do-inputs-box">
-	<form name="form-2" action="news.php" method="post">
-		<input class="inputs-31" type="text" placeholder="First Name" name="username" REQUIRED />&nbsp;
-		<input class="inputs-32" type="email" placeholder="Email" name="useremail" size="35" REQUIRED />
-		<input class="sub-button-2" type="submit" value="Subscribe"/>
-	</form>
-	</div>
-</div>
-
-
-
-
-
+?>
 </div>
 <!-- ........................................................-->
 <!--footer start here  -->
