@@ -17,7 +17,7 @@ background-size:cover;background-position:center;padding:80px; filter: grayscale
 
 
 .donate p{display:block;color:white;font-size:1.6vw;margin:0 auto;font-family:Sitka Small;font-weight:1000;padding:30px;
-		  text-align:center;height:auto;width:80%;opacity:1;z-index:1;background-color:rgba(0,0,200,0.6);border-radius:10px;}
+		  text-align:center;height:auto;width:80%;opacity:1;z-index:1;background-color:rgba(0,0,0,0.6);border-radius:10px;}
 .donate button{font-size:1.5vw;font-weight:bold;display:block;opacity:0.9;width:45%;margin:0 auto;
 background-color:yellow;color:black;padding:5px;}
 .donate button:hover{color:red;opacity:1;}

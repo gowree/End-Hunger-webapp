@@ -300,7 +300,7 @@ filter:grayscale(15%)
 .become-button2:hover{text-decoration:none;background:teal;color:white;}
 .do-inputs-2{
 	position:absolute;display:block;top:3100px;bottom:0;padding:10px 10px 0 40px;color:black;height:220px;left:200px;
-	width:62%;
+	width:78%;
 }
 .do-inputs-2 h1{font-size:44px;color:grey;font-weight:bold;}
 .do-inputs-2 p{font-size:16px;font-family:Sitka Small;}
@@ -308,7 +308,7 @@ filter:grayscale(15%)
 .do-inputs-2 input{border-radius:5px;left:0;bottom:0;border:none;}
 .inputs-31{background:LightGray;padding:15px 30px 10px 60px;}
 .inputs-32{background:LightGray;padding:15px 250px 10px 60px;}
-.sub-button-2{position:relative;padding:17px 150px 15px 63px;width:100px;background:orange;color:white;font-size:20px;left:0;bottom:0;}
+.sub-button-2{position:relative;padding:10px 150px 15px 63px;width:100px;background:orange;color:white;font-size:20px;left:0;bottom:0;}
 .sub-button-2:hover{background-color:white;color:orange;border:1px solid orange;}
 
 

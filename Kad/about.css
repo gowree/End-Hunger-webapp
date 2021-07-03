@@ -173,7 +173,7 @@ background-size:cover;margin-top:-20px;height:25%;position:relative}
 }
 .header-2{padding:10px;font-weight:bold;position:relative;text-align:center;color:green;}
 .p2{;font-family:Sitka Small;font-size:16px;text-align:center;width:60%;margin:0 auto;}
-
+.p2:hover{background:teal;color:white;}
 .imag{width:70%;height:400px;position:relative;margin-left:16%;border:3px solid grey;}
 
 
