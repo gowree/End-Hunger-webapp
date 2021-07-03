@@ -217,15 +217,34 @@ background-size:cover;margin-top:-20px;height:25%;position:relative;}
    font-size: 30px;
    text-align: left;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
- }
- p.groove
+  }
+
+ p.box 
  {
-  
-  border-style: groove;
-  border-color:#43aa8b;
+  background-color:#006d77;
+  width:1400px;
+  height: 208px;x;
+  border: 4px solid #006d77 ;
   padding: 20px;
-  
- }
+  margin: 10px;
+  font-size: 18px;
+  color:white;
+}
+
+input[type=text] 
+{
+  background-color:#003049;
+ font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+input[type=submit]
+{
+  background-color:#003049;
+  font-family:Arial, Helvetica, sans-serif;
+  color:white
+}
  
 
 
