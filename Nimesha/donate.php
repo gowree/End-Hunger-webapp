@@ -143,7 +143,7 @@ Below you will find the option to donate to one of our programs or to general op
               <li class="footli"><a href="http://scanfcode.com/contact/">Contact Us</a></li>
               <li class="footli"><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
               <li class="footli"><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li class="footli"><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              <li class="footli"><a href="../sitemap.xml">Sitemap</a></li>
             </ul>
           </div>
         </div>
