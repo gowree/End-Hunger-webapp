@@ -221,12 +221,145 @@ background-size:cover;margin-top:-20px;height:25%;position:relative}
   
 
 
+ /*this .topic class will  use for every topic*/
+ .padding
+ {
+   padding: 70px;
+ }
+ .topic
+ {
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color:black;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 7px;
+   font-size: 58px;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ /*poem hunger is a war..etc*/
+  .heading{
 
+    text-align: right;
+    font-family:BellMT ;
+    color: black;
+    border: 2px rgb(27, 150, 109);
+    background-image:url("hunger2.jpg");
+    background-repeat: no-repeat;
+    background-color:rgb(28, 121, 67);
+    padding: 130px;
+ 
+  }
+  /*about us para1 and our vision para*/
+  p.para1
+  {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:left;
+    padding: 10px;
+    
+  }
+  /*our branches para */
+  p.para2
+  {
+    font-size: 18px;
+    font-weight:italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: left 40px;
+  
+  }
+  /*style for our branches*/
+  .style1
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: rgb(12, 151, 82);
+    font-display: flex;
+    font-size: 18px;
+
+  }
+  /*our services*/
+  .para3
+  {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  /*our services sub topic*/
+  p.subtopic
+  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: dodgerblue;
+
+  }
+  .cha{
+    background-color:white;
+    color:black;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .cha:hover {
+    background-color:#43aa8b;
+  }
+  p.para4
+  {
+    font-size: 18px;
+    text-align:left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
     
-  
- 
- 
+  }
+  .topic2
+ {
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   color:black;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 7px;
+   font-size: 30px;
+   text-align: left;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+ .box 
+ {
+  background-color:#006d77;
+  width:100%;
+  height: 22em;
+  border: 4px solid #006d77 ;
+  padding: 20px;
+  margin: 10px;
+  font-size: 18px;
+  color:white;
+  display:inline-block;
+  position:relative;
+}
+
+input[type=text] 
+{
+  background-color:#003049;
+ font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: white;
+}
+
+input[type=submit]
+{
+  background-color:#003049;
+  font-family:Arial, Helvetica, sans-serif;
+  color:white;position:relative;left:10px;
+  padding:0.4% 20%;margin:auto 0;
+}
+.box-part{display:block;
+	padding:10px;
+}
+#com{color:white;background:#003049; resize: vertical;
+    overflow: auto;width:60%;
+}
+
  
  
  /*........................................................*/
