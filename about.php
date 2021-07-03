@@ -1,5 +1,8 @@
 <
 <?php
+$uname=$_POST['uname'];
+$service=$_POST['service'];
+$comment=$_POST['comment'];
 
 //connection
 
@@ -28,7 +31,9 @@ else
 */
 
 //create a table in database
+
 mysqli_select_db($con,"ABOUT");
+/*
 $TABLE="CREATE TABLE COMMENT(uname varchar(50),how_about_Service varchar(20),comment varchar(180))";
 if(mysqli_query($con,$TABLE))
 {
@@ -38,6 +43,20 @@ else
 {
    echo "Table is not created";
 }
+*/
+
+//inserting values
+$insert="INSERT INTO COMMENT VALUES('uname','service','comment')";
+if(mysqli_query($con,$insert))
+{
+    echo "Data inserted successfully";
+}
+else
+{
+   echo "Dta inserted fail";
+}
+
+
 
 ?>
 

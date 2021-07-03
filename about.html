@@ -192,23 +192,25 @@ To  win
        
        
        <h3>Comment Box</h3>
-       <form>
+
+
+       <form action="about.php"method="POST">
         <p class="groove">
         <label>Name:</label> 
         <input type="text" name="uname">
         <br>
         <br>
        <label>what do you think about our service:</label>
-       <input type="radio" id="best"name="best">
+       <input type="radio" id="best"name="service"Value="best">
        <label>Best</label>
-       <input type="radio" id="good"name="good">
+       <input type="radio" id="good"name="service"value="good">
        <label>Good</label>
-       <input type="radio" id="bad"name="bad">
+       <input type="radio" id="bad"name="service"value="bad">
        <label>Bad</label>
        <br>
        <br>
        <label>Enter your Comment:</label>
-       <input type="text"name="com">
+       <input type="text"name="comment">
        <br>
        <br>
        <input type="submit"Name="submit"Value="Enter">
