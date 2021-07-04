@@ -7,7 +7,9 @@ function validate()
     
 
 if (fname=="" || lname=="" || hd=="" ||pn=="" ||email=="")
-{alert("Some fields are empty, Fill every Fields ");
-    return false;}
-
+    {alert("Some fields are empty, Fill every Fields ");
+return false;}
+   
+   else alert("SUBMISSION SUCCESS");
+  
 }
