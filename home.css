@@ -99,17 +99,27 @@
  /* Nav bar start here */
 .container-fluid{margin-top:7px;overflow:hidden;}
 #head-mid{height:3300px;}
-.working{background-image:linear-gradient(teal,teal,teal,teal,teal,black);
+.working{background:SlateBlue;
  background-clip:content-box;padding-left:5px;}
 #myNavbar{font-size:17px;}
 #myNavbar li{padding-left:8px;padding-right:8px;margin-left:18px;}
 .navli{border-radius:2px;}
-.navli:hover{border-bottom:3px solid white;font-weight:bold;background-clip: padding-box;}
+.navli:hover{border-bottom:2px solid white;font-weight:bold;background-clip: padding-box;}
 .footli:hover{font-weight:bold;}
 .navbar-brand{padding:2px;}
-#brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
+#brand:hover{animation-name:brand;animation-duration:4s;animation-iteration-count:infinite;}
 @keyframes brand{
-	100%{background-color:teal;}
+	0%{border-left:3px solid gold;}
+	10%{border-left:3px solid gold;}
+	20%{border-left:0px;border-bottom:3px solid gold;}
+	30%{border-bottom:0px;border-right:3px solid gold;}
+	40%{border-right:0px;border-top:3px solid gold}
+	50%{border-top:0px;border-left:3px solid gold}
+	60%{border-left:0px;border-bottom:3px solid gold;}
+	70%{border-bottom:0px;border-right:3px solid gold;}
+	80%{border-right:0px;border-top:3px solid gold}
+	90%{border-top:0px;}
+	100%{border-left:3px solid gold;}
 }
  #donate-button{background-color:yellow;padding-left:25px;padding-right:25px;color:black;border:2px solid yellow;}
 #donate-button:hover{color:red;}
@@ -290,15 +300,15 @@ filter:grayscale(15%)
 .become-button2:hover{text-decoration:none;background:teal;color:white;}
 .do-inputs-2{
 	position:absolute;display:block;top:3100px;bottom:0;padding:10px 10px 0 40px;color:black;height:220px;left:200px;
-	width:62%;
+	width:78%;
 }
 .do-inputs-2 h1{font-size:44px;color:grey;font-weight:bold;}
 .do-inputs-2 p{font-size:16px;font-family:Sitka Small;}
 .do-inputs-box{position:absolute;display:flex;}
 .do-inputs-2 input{border-radius:5px;left:0;bottom:0;border:none;}
 .inputs-31{background:LightGray;padding:15px 30px 10px 60px;}
-.inputs-32{background:LightGray;padding:15px 260px 10px 60px;}
-.sub-button-2{padding:17px 150px 15px 63px;width:100px;;background:orange;color:white;font-size:20px;left:0;bottom:0;}
+.inputs-32{background:LightGray;padding:15px 250px 10px 60px;}
+.sub-button-2{position:relative;padding:10px 150px 15px 63px;width:100px;background:orange;color:white;font-size:20px;left:0;bottom:0;}
 .sub-button-2:hover{background-color:white;color:orange;border:1px solid orange;}
 
 
