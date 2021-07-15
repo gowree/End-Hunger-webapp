@@ -44,32 +44,28 @@
 <!-- navigation bar end here  -->
 <!-- main div start -->
 <!-- ........................................................-->
- <div id="head-mid" class="container-fluid" >	
- 
- 
- 
- 
- <br>
- <div class="box-1">
-<div class="text-1">
-	<h1>Working together<br>for a world<br><u>without hunger</u> </h1>
-	
- </div>
+<div class="big-box">
+	<?php
+		$fname = $_POST["Fname"];$Lname = $_POST["Lname"];$email = $_POST["emailname"];
+		$tp = $_POST["tp"];$address = $_POST["add"];$city = $_POST["ct"];$state = $_POST["st"];
+		$zip = $_POST["zip"];$cash = $_POST["cash"];
+		$con=mysqli_connect("localhost","root","");
+		mysqli_select_db($con,"assigmentdb");
+		$sql = "INSERT INTO donation(FIRSTNAME,LASTNAME,EMAIL,TELEPHONE,ADDRESS,CITY,STATE,ZIPCODE,DONATION) VALUES('$fname',
+				'$Lname','$email','$tp','$address','$city','$state','$zip','$cash');";
+		if($sql){
+			echo "<br><br><font color='green' size='10'><b>Thank you for your generous gift to Against Hunger Foundation. 
+			We are thrilled to have your support. Through your donation we have been able to accomplish Zero Hunger
+			and continue working towards end all forms of hunger and malnutrition .
+			You truly make the difference for us, and we are extremely grateful!<br>
+			Donation details sent to your Email..<br><br>
+			<a href='../home/home.html'>Click here </a>to go back home page..</b></font>";
+		}
+		else{echo "<font color='red'>Something  wrong.. redirecting</font>";}
+		mysqli_query($con,$sql);
+		mysqli_close();
+	?>
 </div>
-
-<!--     donation form start here   --> 
-<form name="form-1" method="post" action="donate-form-1.php">                   
-<div class="donation-box">
-	<label for="donate-value" class="donate-box-2">
-	<input type="number" name="donate-value" placeholder="$" id="text-2"><input type="submit" class="don-but" value="Donate"/>
-	</label>
-</div>
-</form>
- <!--   donation form end here    -->
-<br>
-<br>
- </div>
-
 <!-- ........................................................-->
 <!--footer start here  -->
   <!-- Site footer -->
@@ -111,12 +107,13 @@
         </div>
       </div>
 </footer>
-
-
 <!-- ........................................................-->
 <!-- footer end here-->
+<?php
+
+	
 
 
-
+?>
 </body>
 </html>
