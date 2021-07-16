@@ -185,7 +185,7 @@ textarea:focus, input:focus{
 
 }
 @media only screen and (max-width:600px) {
-.donation-box{width:30em;left:12%;top:-30px;font-size:10px;}
+.donation-box{width:30em;left:12%;top:-30em;font-size:10px;}
 .text-1{top:45vh;}
 #head-mid{height:50vh;}
 	.box-1 h1{font-size:3.8vh;margin-top:-9em;margin-left:-10em;}

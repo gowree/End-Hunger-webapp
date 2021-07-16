@@ -226,3 +226,6 @@ textarea:focus, input:focus{
 		.pay-link1{top:130px;left:0;}
 		.pay-link1,.pay-link2{float:left;}
 }
+@media only screen and (max-width:600px) {
+	.donation-box{width:30em;left:12%;top:-20px;font-size:10px;}
+}

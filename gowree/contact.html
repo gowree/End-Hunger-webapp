@@ -7,9 +7,8 @@
 <!--mobile responsive-->
 <meta name="format-detection" content="telephone=yes"/>
     <meta name="HandheldFriendly" content="true"/> 
-	
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="contact.css">
+<link rel="stylesheet" type="text/css" href="themes.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -43,16 +42,14 @@
 <!-- navigation bar end here  -->
 <!-- main div start -->
 <!-- ........................................................-->
- <div id="" class=".container-fluid" class="bg-gray-8">	
- 
- 
- 
+ <div id="head-mid" class=".container-fluid" class="bg-gray-8">	
+  <br>
  
 <!-- Gowreeshans Code Start -->
 
  
   <div class="cu01"><h1 class="cu">FEEL FREE TO CONTACT US</h1></div>
-<br><br>
+
   <!-- Form Start -->
  <div class="boxout1">
     <div class="cu03"><p>Well wishers if you like to clarify 
@@ -60,60 +57,82 @@
       please fill this form & submit; we will contact back to you soon as much as possible.   </p>
     </div>
 
-    <div class="cu04">
-      <form>
-        <table class="tb">
+   <div class="cu04">
+      <script src="validate.js" type="text/javascript"></script>
+      <form action="Client DB.php" method="POST"  name="form" >
+              
+        <table class="tb" name="tbl">
           <tr class="r1"><td class="c1">First Name</td>
-                         <td class="c2"> <input type="text" name="Fname" placeholder="First Name "></td>
-                          <td class="c1">Last Name</td>
-                          <td class="c2"><input type="text" name="Fname" placeholder="Last Name "></td>
+               <td class="c2"> <input type="text" name="fname" placeholder="First Name "></td>
         </tr>
+        <tr class="r1"><td class="c1">Last Name</td>
+        <td class="c2"><input type="text" name="lname" placeholder="Last Name "></td> 
+      </tr>
         <tr class="r1"><td class="c1">Phone Number</td>
-                       <td class="c2"> <input type="text" name="Fname" placeholder="Your personal contact number "></td>
-                        <td class="c1">E-Mail</td>
-                       <td class="c2"><input type="email" name="Fname" placeholder="youremail@mail.com "></td>
+          <td class="c2"> <input type="number" name="pn" placeholder="Your personal contact number "></td>
+                      </tr>
+                      <tr class="r1">              
+                       <td class="c1">E-Mail</td>
+        <td class="c2"><input type="email" name="email" placeholder="Kanchana@mail.com "></td>
         </tr>
-
            <tr class="r1"><td class="c1">Home Address</td>
-                          <td colspan="3"  class="c2"> <input  placeholder="Type Address" class="i1"  type="text" name="Fname" placeholder=""></td>
+            <td   class="c2"> <input class="i1"  type="text" name="hd" placeholder=""></td>
           </tr>
           <tr class="r2"><td class="c11">Message</td>
-                         <td colspan="3"  class="c2"> <textarea placeholder="Type here...." class="i2"></textarea></td>
+                         <td class="c2"> <textarea class="i2" name="mg"></textarea></td>
            </tr>
-           <tr class="r1"><td class="c1"></td>
+           <tr class="r1"><td class="c1">
+             <input class="b1" onclick="validate()"type="submit"value="SUBMIT" ></td>
                           <td class="c2"> </td>
-                           <td class="c1"><button class="b1">Submit</button></td>
-                           <td class="c1"></td>
             </tr>
        </table>
-      </form>
+            </form>
       </div>
 </div>
       <!-- Form End -->
-<br><br>
+
 <!-- Contact details start-->
+<div class="boxout4"><fieldset style="width:1400px"> 
+   <legend> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="6px" face="CiutadellaW04-Lt" color="white">Direct Contacts</font>
+    &nbsp;&nbsp;&nbsp;&nbsp;</legend>
+  <table class="tb2">
+        <tr class="tb2r1">  <td class="tb2c1"><img src="hl.png" width="40px"></div></td>
+                            <td class="tb2c2">HOT LINE: 021-7654321</td>
+                          </tr>  <tr class="tb2r1">
+                          <td class="tb2c1"><img src="em.png" width="40px"></td>
+                            <td class="tb2c2">E-Mail: <E-mail>FAH@hotmail.com</E-mail></td>
+                          </tr>  <tr class="tb2r1"> 
+                           <td class="tb2c1"><img src="fax.png" width="40px"></td>
+                            <td class="tb2c2">FAX: 011-1212122</td>
 
-
+        </tr>
+        <tr class="tb2r1">  <td class="tb2c1"><img src="wapp.png" width="40px"></td>
+          <td class="tb2c2">What's app: 94 76 1606549</td>
+        </tr>  <tr class="tb2r1">   
+            <td class="tb2c1"><img src="mapp.png" width="35px"></td>
+          <td class="tb2c2">Messenger:<a href="https://www.facebook.com/messages/t/0000000/">https://www.facebook.com/messages/t/0000000/</td>
+          </tr>  <tr class="tb2r1">   
+            <td class="tb2c1"><img src="vapp.png" width="40px"></td>
+          <td class="tb2c2">Viber:94 76 1606549</td>
+          </tr>    
+  </table>  
+  </fieldset>
+</div>
 <!-- Contact details end -->
 
 <!-- follow us Start -->
 <center>
-<div class="boxout3"><font size="5vw" face="CiutadellaW04-Lt"><u><b>Follow us</b></u></font></h1>
-  <div class="mpop"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="point.png" width="30px">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="#"><img class="pop" src="fb.png" width="40px"></a>
-    <a href="#"><img  class="pop" src="ytb.png" width="40em"></a>
-    <a href="#"><img  class="pop" src="tw.png" width="40px"></a>&nbsp;&nbsp;
-    <a href="#"><img  class="pop" src="ins.png" width="40px"></a></div></div>
+<div class="boxout3"><font size="6px" face="CiutadellaW04-Lt"><u><b>Follow us</b></u></font></h1>
+  <div> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="point.png" width="30px">
+    &nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://www.facebook.com/"><img src="fb.png" width="25px"></a>
+    <a href="https://www.youtube.com/"><img src="ytb.png" width="60px"></a>
+    <a href="https://www.twitter.com/"><img src="tw.png" width="35px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/"><img src="ins.png" width="30px"></a></div></div>
 </center>
 <!-- follow us end -->
 
 <!-- Gowreeshans Code End -->
-
-<!-- donate -->
-
-
-</div>
 
 
 
