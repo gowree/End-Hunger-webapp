@@ -98,7 +98,7 @@ Below you will find the option to donate to one of our programs or to general op
 			<td>
 			<label for="cash"  class="required">Amount</label></td>
 			<td>
-			<input type="number" step="any" class="input-box" name="cash"  min="10" max="10000" value="<?php echo $_POST['donate-value'];?>">
+			<input type="number" required step="any" class="input-box" name="cash"  min="10" max="10000" value="<?php echo $_POST['donate-value'];?>">
 			</td>
 		</tr>
 		<tr>
@@ -139,10 +139,10 @@ Below you will find the option to donate to one of our programs or to general op
           <div class="col-xs-6 col-md-3">
             <h6>Quick Links</h6>
             <ul class="footer-links">
-              <li class="footli"><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li class="footli"><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li class="footli"><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li class="footli"><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+             <li class="footli"><a href="../kad/about.html">About Us</a></li>
+              <li class="footli"><a href="../gowree/contact.html">Contact Us</a></li>
+              <li class="footli"><a href="../sign.html">Contribute</a></li>
+              <li class="footli"><a href="../privacy/privacy.html">Privacy Policy</a></li>
               <li class="footli"><a href="../sitemap.xml">Sitemap</a></li>
             </ul>
           </div>
@@ -153,7 +153,7 @@ Below you will find the option to donate to one of our programs or to general op
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-         <a href="1.html">Against hunger Foundation </a>.
+         <a href="../index.html">Against hunger Foundation </a>.
             </p>
           </div>
 
