@@ -1,177 +1,282 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-    <meta name="language" content="english"> 
-    <meta http-equiv="content-type" content="text/html">	
-<!--mobile responsive-->
-<meta name="format-detection" content="telephone=yes"/>
-    <meta name="HandheldFriendly" content="true"/> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="themes.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+/* footer start here*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
 
-</head>	
-<body>
-<!--navigation bar start here  -->
- <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#" id="brand">&nbsp&nbsp&nbsp&nbspSNTH corparates &nbsp&nbsp&nbsp&nbsp</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav"> 
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Donate</a></li>
-        <li><a href="#">About US</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav> 
-<!-- navigation bar end here  -->
-<!-- main div start -->
-<!-- ........................................................-->
- <div id="head-mid" class=".container-fluid" class="bg-gray-8">	
-  <br>
+/* footer end here */
+
+/*........................................................*/
  
-<!-- Gowreeshans Code Start -->
-
+ /* Nav bar start here */
+ .navbar-brand{padding:10px;}
+ #brand:hover{animation-name:brand;animation-duration:4s;animation-fill-mode:forwards;}
+@keyframes brand{
+	100%{background-color:pink;}
+}
+#head-mid{width:100%;border-bottom:2px solid white;background-repeat:no-repeat;
+background-size:cover;margin-top:-20px;height:25%;position:relative;}
  
-  <div class="cu01"><h1 class="cu">FEEL FREE TO CONTACT US</h1></div>
+ 
+ /* Nav bar end here */
+ /*........................................................*/
+ 
+ 
+ 
+ 
+ 
+ /* Your code types here */
+ body{min-width 1300px;
+      background-image: url(cu.jpg);
+            background-size:contain;
+          }
 
-  <!-- Form Start -->
-  <center>
- <div class="boxout1">
-    <div class="cu03"><p>Well wishers if you like to clarify 
-      about our services, volunteer with us or about giving donations
-      please fill this form & submit; we will contact back to you soon as much as possible.   </p>
-    </div>
-
-   <div class="cu04">
-      <script src="validate.js" type="text/javascript"></script>
-      <form action="Client DB.php" method="POST"  name="form" >
+          @font-face{font-family:CiutadellaW04-Lt;
+         src: url(9eba9fd211ec90d8f4f10ee7de98cee9.woff);
+                      }
               
-        <table class="tb" name="tbl">
-          <tr class="r1"><td class="c1">First Name</td>
-               <td class="c2"> <input type="text" name="fname" placeholder="First Name "></td>
-        </tr>
-        <tr class="r1"><td class="c1">Last Name</td>
-        <td class="c2"><input type="text" name="lname" placeholder="Last Name "></td> 
-      </tr>
-        <tr class="r1"><td class="c1">Phone Number</td>
-          <td class="c2"> <input type="number" name="pn" placeholder="Your personal contact number "></td>
-                      </tr>
-                      <tr class="r1">              
-                       <td class="c1">E-Mail</td>
-        <td class="c2"><input type="email" name="email" placeholder="Kanchana@mail.com "></td>
-        </tr>
-           <tr class="r1"><td class="c1">Home Address</td>
-            <td   class="c2"> <input   type="text" name="hd" placeholder=""></td>
-          </tr>
-          <tr class="r2"><td class="c11">Message</td>
-                         <td class="c2"> <textarea class="i2" name="mg"></textarea></td>
-           </tr>
-           <tr class="r1"><td class="c1">
-             <input class="b1" onclick="validate()"type="submit"value="SUBMIT" ></td>
-                          <td class="c2"> </td>
-            </tr>
-       </table>
-            </form>
-      </div>
-</div>
-</center>
-      <!-- Form End -->
+ h1.cu{font-family:CiutadellaW04-Lt;
+        color:#021438;
+        font-weight: bolder;	
+        font-size:29px;
+        width:100%;	 }
 
-<!-- Contact details start-->
-<div class="boxout4"><fieldset style="width:1400px"> 
-   <legend> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="6px" face="CiutadellaW04-Lt" color="white">Direct Contacts</font>
-    &nbsp;&nbsp;&nbsp;&nbsp;</legend>
-  <table class="tb2">
-        <tr class="tb2r1">  <td class="tb2c1"><img src="hl.png" width="40px"></div></td>
-                            <td class="tb2c2">HOT LINE: 021-7654321</td>
-                          </tr>  <tr class="tb2r1">
-                          <td class="tb2c1"><img src="em.png" width="40px"></td>
-                            <td class="tb2c2">E-Mail: <E-mail>FAH@hotmail.com</E-mail></td>
-                          </tr>  <tr class="tb2r1"> 
-                           <td class="tb2c1"><img src="fax.png" width="40px"></td>
-                            <td class="tb2c2">FAX: 011-1212122</td>
+ div.cu01{margin-left:0px 40px ;
+  margin-right: auto;
+width:max-content;
+height:max-content;
+padding-top: 0.5%;
+padding-bottom: 0.5%;
+padding-right: 10%;
+padding-left: 5%;
+background-color:rgb(223, 222, 222);
+border-radius: 10px;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
+ opacity:95%;}
 
-        </tr>
-        <tr class="tb2r1">  <td class="tb2c1"><img src="wapp.png" width="40px"></td>
-          <td class="tb2c2">What's app: 94 76 1606549</td>
-        </tr>  
-          <tr class="tb2r1">   
-            <td class="tb2c1"><img src="vapp.png" width="40px"></td>
-          <td class="tb2c2">Viber:94 76 1606549</td>
-          </tr>    
-  </table>  
-  </fieldset>
-</div>
-<!-- Contact details end -->
+  
 
-<!-- Gowreeshans Code End -->
+  div.cu03{margin-top:5px ;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 0px;
+            background-color:;
+            height: auto;
+            width: inherit;
+            font-family:CiutadellaW04-Lt;
+            color: rgb(235, 232, 240);
+            font-size: 20px;
+            font-weight:normal;
+             padding: 5px;
+             align-self:center;
+             } 
+          
+             div.cu04{
+                      background-color: rgb(32, 32, 32);
+                      height: auto;
+                    padding: 5px 5px 5px 5px;
+                      border-radius: 5px;
+                      max-width:inherit;
+                      
+                      }
+                      div.boxout1{background-color: #33353d;
+                        border-radius: 10px;
+                        height: auto;
+                       padding: 15px;
+                           margin: 10px 10px 10px 10px;
+                            width: 800px;;
+                          align-content:;
+                                  }    
 
+             table.tb{  width:inherit ;
+               font-family: CiutadellaW04-Lt;
+               font-size: 18px;
+               border:;
+               margin: 3px;
+               
+               
+                }
+                  .r1{height: 70px;width: 80px;}
+                  .r2{height: 185px;}
+              .c1{text-align: right;width:inherit;padding-right: 30px;
+                color: yellowgreen; }
+              .c11{text-align: center;width: auto;padding-left: 30px;padding-bottom: 130px;color: yellowgreen; }
+              .c2{text-align: left;
+                    width:max-content;
+                     color: rgb(255, 255, 255);}
 
+                     input{width: 500px;
+                      max-width: initial;
+                      height: 50px;
+                      border: 2px solid rgb(211, 211, 211);
+                      border-radius: 3px;
+                      color: ivory;
+                      background-color: rgba(78, 78, 78, 0.411);}
 
-<!-- ........................................................-->
-<!--footer start here  -->
-  <!-- Site footer -->
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p class="text-justify">SHTH corp. <i>The SDGs aim to end all forms of hunger and malnutrition by 2030, making sure all people–especially children–have sufficient and nutritious food all year. This involves promoting sustainable agricultural, 
-			supporting small-scale farmers and equal access to land, technology and markets.</p>
-          </div>
+                     input.i1{width:inherit;
+                      color: ivory;
+                      
+                    }
+                    .i2{width: 500px; height: 150px;
+                      color: ivory;
+                      border: 2px solid rgb(211, 210, 210);
+                      border-radius: 3px;
+                      background-color: rgba(78, 78, 78, 0.411);}
 
-          <div class="col-xs-6 col-md-3">
-          </div>
+                      .b1{font-family:CiutadellaW04-Lt ;
+                          font-weight: bold;
+                          color: black;
+                            font-size: 18px;
+                            width: 150px;
+                          height: 50px;
+                          border-radius: 5px;
+                          background-color: rgb(155, 255, 55);}
 
-          <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-            </ul>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-         <a href="#">SNTH</a>.
-            </p>
-          </div>
+                     
+                    
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            
-        </div>
-      </div>
-</footer>
+                            div.boxout4{background-color: #33353d;
+                                         height: 200px;                                                   
+                                border-radius: 10px;
+                                 margin-left: 10px  ;
+                                 margin-bottom: 10px;
+                                margin-right: 50px;
+                                  width:inherit;
+                                  height:fit-content;
+                                  color: beige;
+                                  display: flex;
+                                  float:;
+                                  } 
 
+                                  table.tb2{
+                                    border:;
+                                    font-family: CiutadellaW04-Lt;
+                                    font-size: 18px;}
 
-<!-- ........................................................-->
-<!-- footer end here-->
+                                  .tb2r1{height: 60px;
+                                        }
+                                  .tb2c1{width: 100px;text-align: right;padding-right: 10px;}
+                                  .tb2c2{width: 320px;}
+                                  div.fg1{background-image: url(tp.jpg) ;
+                                         background-size:cover;
+                                          background-position: center;
+                                           border-radius: 2px;
+                                     height:50px ;
+                                      width: 80px;
+                                     }
+                                     div.fig1{background-image:url(wapp.png)  ;
+                                      background-size: cover;
+                                      margin: 6px;
+                                      border-radius: 2px;
+                                      float: left;
+                                      height: 54px;
+                                      width: 54px;
+                                      background-color: white;}
 
-
-
-</body>
-</html>
+                                      div.boxout3{height: 60px;
+                                        background-color: rgb(190, 190, 190);
+                                        border-top-left-radius: 10px;
+                                        border-top-right-radius: 10px;
+                                         width: 410px;
+                            padding: 4px 20px  ;
+                             margin-top: 5px 10px 0px 10px;
+                             margin-bottom: 0px;
+                              display: flex;
+                            }
+                                               
+                   
+  /* Your code types here */
+ 
+ 
+ 
+ 
+ /*........................................................*/
